@@ -1,0 +1,15 @@
+
+.nav {
+
+}
+
+.nav-logo {
+   margin-right: auto;
+}
+
+.hero-wrapper {
+   width: 100%;
+   height: 800px;
+   background-image: url("/images/Salon-Background.jpeg");
+   background-size: cover;
+}
