@@ -13,3 +13,59 @@
    background-image: url("/images/Salon-Background.jpeg");
    background-size: cover;
 }
+
+.info-wrapper {
+   width: 70%;
+   height: fit-content;
+   background: white;
+   margin: auto;
+   border: 2px solid black;
+   position: relative;
+   top: 200px;
+   opacity: 80%;
+}
+
+.info-wrapper {
+   text-align: center;
+   font-family: cursive;
+
+}
+
+.info-wrapper h1 {
+   font-size: 60px;
+   margin-top: -10px;
+}
+
+.info-wrapper p {
+   font-size: 23px;
+   padding: 0px 50px;
+   margin-top: -30px;
+}
+
+.buttons-wrapper {
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   padding: 0px 20px;
+
+}
+
+.button {
+   width: 300px;
+   height: max-content;
+   border: 1px solid black;
+   margin: auto;
+   margin-bottom: 20px;
+   background-color: lightgray;
+   padding: 10px;
+   border-radius: 8px;
+   opacity: 100%;
+  
+}
+
+.button a {
+   color: black; 
+   font-family: copperplate;
+   font-size: 20px;
+   
+}
