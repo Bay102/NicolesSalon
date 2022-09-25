@@ -236,6 +236,10 @@
       padding: 10px;
    } 
 
+   .pictures {
+      height: 0px;
+   }
+
    .pictures-wrapper {
       width: 98%;
       top: -250px;
@@ -247,9 +251,7 @@
    }
 
    .reviews {
-    position: relative;
-    top: -200px;
-    height: 315px;
+   
    }
 
    .review-carousel {
