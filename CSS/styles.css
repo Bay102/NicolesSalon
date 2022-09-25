@@ -122,8 +122,6 @@
 }
 
 .review-carousel .review-item {
-   background: var(--bg-panel);
-   color: var(--color-text-base);
    max-width: 330px;
    width: 100%;
    padding: 2.5rem;
@@ -267,6 +265,10 @@
 .review-carousel .review-item {
    max-width: 285px;
    padding: 1.3rem;
+}
+
+.review-item.next {
+   transform: none;
 }
 
 .slide-ctrl-container {
