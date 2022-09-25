@@ -9,27 +9,24 @@
 
 .hero-wrapper {
    width: 100%;
-   height: 700px;
-   background-image: url("/images/shari-sirotnak-oM5YoMhTf8E-unsplash.jpeg");
+   height: 900px;
+   background-image: url("/images/Salon-Background.jpeg");
    background-size: cover;
 }
 
 .info-wrapper {
    width: 70%;
    height: fit-content;
-   background: rgb(123 123 123);
+   background: #ecd2cf;
    margin: auto;
    border: 2px solid black;
    border-radius: 8px;
    position: relative;
-   top: 150px;
+   top: 300px;
    opacity: 90%;
-}
-
-.info-wrapper {
-   text-align: center;
+    text-align: center;
    font-family: cursive;
-
+   color: #63514b;
 }
 
 .info-wrapper h1 {
@@ -57,18 +54,17 @@
 }
 
 .button {
-   width: 30%;
+   width: 35%;
    height: max-content;
-   border: 2px solid black;
+   border: 1px solid black;
    margin: auto;
    margin-bottom: 20px;
-   background-color:white;
-   padding: 5px;
+   background-color: white;
+   padding: 15px;
    border-radius: 8px;
    opacity: 100%;
-  
 }
-
+  
 .button a {
    color: black; 
    font-family: copperplate;
@@ -77,7 +73,7 @@
 }
 
 .pictures {
-   background-color: #908d8d;  
+   background-color: #ecd2cf;  
 }
 
 .pictures-wrapper {
@@ -99,14 +95,16 @@
 }
 
 .image img {
-   width: 250px;
-   height: 250px;
+   width: 300px;
+   height: 300px;
    border-radius: 10px;
  
 }
 
 
-
+.reviews {
+   /* background-image: url("/images/shari-sirotnak-oM5YoMhTf8E-unsplash.jpeg"); */
+}
 
 
 .review-preview img {
@@ -117,7 +115,7 @@
    display: flex;
    justify-content: center;
    height: 250px;
-   margin: 125px 0 50px;
+   margin: 75px 0px;
    pointer-events: none;
 }
 
@@ -127,6 +125,7 @@
    max-width: 330px;
    width: 100%;
    padding: 2.5rem;
+   border: 1px solid white;
    border-radius: 24px;
    box-shadow: 0 22px 34px rgb(22, 28, 45, .18);
    transition: all 300ms ease-in-out;
@@ -139,11 +138,12 @@
    transform: translate(0, -10%);
    z-index: 10;
    opacity: 1;
+   background-color:#ecd2cf ;
 }
 
 .review-item.prev,
 .review-item.next {
-   opacity: 0.25;
+   width: 20px;
 }
 
 .review-item.prev {transform: translateX(-75%);}
@@ -182,12 +182,12 @@
 
 
 .slide-ctrl-container {
-   margin-top: 50px;
+   margin: 75px;
    text-align: center;
 }
 
 .slide-ctrl-container button {
-   background-color: none;
+   background: none;
    border: none;
    outline: none;
    font-size: 32px;
@@ -201,3 +201,74 @@
 
 .slide-ctrl-container button:nth-child(1) {padding-right: 10px}
 .slide-ctrl-container button:nth-child(1) {padding-left: 10px}
+
+
+@media screen and (max-width: 768px) {
+
+   body {
+      width: 100%;
+   }
+
+   .hero-wrapper {
+      height: 850px;
+   }
+
+
+   .info-wrapper {
+      width: 98%;
+      top: 75px;
+      opacity: 83%;
+   }
+
+   .info-wrapper h1 {
+      font-size: 45px;
+   }
+
+   .info-wrapper p {
+      font-size: 15px;
+      padding: 10px 15px;
+   }
+
+   .buttons-wrapper {
+      flex-direction: column;
+   
+   }
+
+   .button {
+      font-size: 12px;
+      width: 75%;
+      padding: 10px;
+   } 
+
+   .pictures-wrapper {
+      width: 98%;
+      top: -250px;
+   }
+
+   .image img {
+      width: 200px;
+      height: 200px;
+   }
+
+   .reviews {
+    position: relative;
+    top: -200px;
+   }
+
+   .review-carousel {
+      margin: 0;
+   }
+
+
+.review-carousel .review-item {
+   max-width: 285px;
+   padding: 1.3rem;
+}
+
+.slide-ctrl-container {
+   position: relative;
+   top: -60px;
+   margin: 0;
+}
+
+}
