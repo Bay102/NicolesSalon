@@ -143,7 +143,7 @@
 
 .review-item.prev,
 .review-item.next {
-   width: 20px;
+   
 }
 
 .review-item.prev {transform: translateX(-75%);}
