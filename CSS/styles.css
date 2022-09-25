@@ -195,8 +195,8 @@
    opacity: 1;
 }
 
-.slide-ctrl-container button:nth-child(1) {padding-right: 10px}
-.slide-ctrl-container button:nth-child(1) {padding-left: 10px}
+/* .slide-ctrl-container button:nth-child(1) {padding-right: 10px}
+.slide-ctrl-container button:nth-child(1) {padding-left: 10px} */
 
 
 @media screen and (max-width: 768px) {
