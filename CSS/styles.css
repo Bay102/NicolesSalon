@@ -138,7 +138,7 @@
 .review-item.active {
    transform: translate(0, -10%);
    z-index: 10;
-   opacity: 1;
+   opacity: 90%;
    background-color:#ecd2cf ;
 }
 
