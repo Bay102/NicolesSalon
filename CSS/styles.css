@@ -30,9 +30,9 @@
 }
 
 .info-wrapper h1 {
-   font-family: papyrus;
+   font-family: cursive;
    font-size: 60px;
-   margin-top: -10px;
+   margin-top: 10px;
    letter-spacing: 2.9px;
 }
 
@@ -79,13 +79,14 @@
 .pictures-wrapper {
    display: flex;
    flex-direction: row;
-   width: 85%;
+   width: 95%;
    height: max-content;
    margin: auto;
-   gap: 5px;
+   gap: 15px;
    overflow-x: scroll;
    position: relative;
    top: -100px;
+   scrollbar-color: transparent;
    
 }
 
@@ -96,10 +97,11 @@
 }
 
 .image img {
-   width: 300px;
-   height: 300px;
+   width: 525px;
+   height: 525px;
    border-radius: 10px;
-   border: 2px outset white;
+   border: 1px solid white;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 
@@ -212,8 +214,8 @@
 
    .info-wrapper {
       width: 98%;
-      top: 75px;
-      opacity: 83%;
+      top: 30px;
+      opacity: 80%;
    }
 
    .info-wrapper h1 {
@@ -242,12 +244,13 @@
 
    .pictures-wrapper {
       width: 98%;
-      top: -250px;
+      top: -375px;
+  }
    }
 
    .image img {
-      width: 200px;
-      height: 200px;
+      width: 325px;
+      height: 325px;
    }
 
    .reviews {
